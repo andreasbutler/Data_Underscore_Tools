@@ -1,0 +1,9 @@
+{"g1_": ["gaussian", {"amplitude": [100, 0, None],
+                     "center": [189.42, 0, 400],
+                     "sigma": [63.691, 0, None]}],
+"g2_": ["gaussian", {"amplitude": [100, 0, None],
+                     "center": [234.71, 0, 400],
+                     "sigma": [19.508, 0, None]}],
+"g3_": ["gaussian", {"amplitude": [100, 0, None],
+                     "center": [326.51, 0, 400],
+                     "sigma": [26.07, 0, None]}],}

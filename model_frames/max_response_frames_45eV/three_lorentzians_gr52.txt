@@ -1,0 +1,11 @@
+{"l1_": ["lorentzian", {"amplitude": [0.5, 0, None],
+                     "center": [100.42, 0, 400],
+                     "sigma": [63.691, 0, None]}],
+"l2_": ["lorentzian", {"amplitude": [1, 0, None],
+                     "center": [240.71, 0, 400],
+                     "sigma": [19.508, 0, None]}],
+"l3_": ["lorentzian", {"amplitude": [1, 0, None],
+                     "center": [276.51, 0, 400],
+                     "sigma": [26.07, 0, None]}],
+"lin_": ["linear", {"slope": [0, 0, None],
+                    "intercept": [0, 0, None]}],}

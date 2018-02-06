@@ -1,0 +1,28 @@
+[[Model]]
+    (((Model(gaussian, prefix='g1_') + Model(gaussian, prefix='g2_')) + Model(gaussian, prefix='g3_')) + Model(linear))
+[[Fit Statistics]]
+    # function evals   = 172
+    # data points      = 357
+    # variables        = 9
+    chi-square         = 154.267
+    reduced chi-square = 0.443
+    Akaike info crit   = -281.542
+    Bayesian info crit = -246.643
+[[Variables]]
+    g1_center:      250        +/- 0        (0.00%) (init= 250)
+    g1_amplitude:   2.7420e-05 +/- 0        (0.00%) (init= 100)
+    g1_sigma:       194.145011 +/- 0        (0.00%) (init= 75)
+    g1_fwhm:        457.176556 +/- 0        (0.00%)  == '2.3548200*g1_sigma'
+    g1_height:      5.6345e-08 +/- 0        (0.00%)  == '0.3989423*g1_amplitude/max(1.e-15, g1_sigma)'
+    g2_center:      220        +/- 0        (0.00%) (init= 220)
+    g2_amplitude:   54.9820544 +/- 0        (0.00%) (init= 100)
+    g2_sigma:       27.3371183 +/- 0        (0.00%) (init= 75)
+    g2_fwhm:        64.3739929 +/- 0        (0.00%)  == '2.3548200*g2_sigma'
+    g2_height:      0.80237671 +/- 0        (0.00%)  == '0.3989423*g2_amplitude/max(1.e-15, g2_sigma)'
+    g3_center:      300        +/- 0        (0.00%) (init= 300)
+    g3_amplitude:   508.845392 +/- 0        (0.00%) (init= 100)
+    g3_sigma:       117.341361 +/- 0        (0.00%) (init= 75)
+    g3_fwhm:        276.317784 +/- 0        (0.00%)  == '2.3548200*g3_sigma'
+    g3_height:      1.72999485 +/- 0        (0.00%)  == '0.3989423*g3_amplitude/max(1.e-15, g3_sigma)'
+    intercept:      0.2743407 (fixed)
+    slope:          0.001858682 (fixed)

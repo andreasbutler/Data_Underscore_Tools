@@ -1,0 +1,29 @@
+[[Model]]
+    ((((Model(constant, prefix='skeleton_') + Model(lorentzian, prefix='l2_')) + Model(linear, prefix='lin_')) + Model(lorentzian, prefix='l1_')) + Model(lorentzian, prefix='l3_'))
+[[Fit Statistics]]
+    # function evals   = 547
+    # data points      = 291
+    # variables        = 11
+    chi-square         = 0.003
+    reduced chi-square = 0.000
+    Akaike info crit   = -3316.681
+    Bayesian info crit = -3276.275
+[[Variables]]
+    skeleton_c:      0 (fixed)
+    l2_sigma:        100.786915 +/- 0        (0.00%) (init= 19.508)
+    l2_amplitude:    21.0832683 +/- 0        (0.00%) (init= 100)
+    l2_center:       157.887788 +/- 0        (0.00%) (init= 184.71)
+    l2_fwhm:         201.573830 +/- 0        (0.00%)  == '2.0000000*l2_sigma'
+    l2_height:       0.06658615 +/- 0        (0.00%)  == '0.3183099*l2_amplitude/max(1.e-15, l2_sigma)'
+    lin_slope:       1.0148e-10 +/- 0        (0.00%) (init= 0.0005268646)
+    lin_intercept:   0.00430050 +/- 0        (0.00%) (init= 0.009953113)
+    l1_sigma:        29.2790893 +/- 0        (0.00%) (init= 63.691)
+    l1_amplitude:    7.20455844 +/- 0        (0.00%) (init= 100)
+    l1_center:       223.177272 +/- 0        (0.00%) (init= 139.42)
+    l1_fwhm:         58.5581787 +/- 0        (0.00%)  == '2.0000000*l1_sigma'
+    l1_height:       0.07832491 +/- 0        (0.00%)  == '0.3183099*l1_amplitude/max(1.e-15, l1_sigma)'
+    l3_sigma:        10.3626764 +/- 0        (0.00%) (init= 26.07)
+    l3_amplitude:    6.83762743 +/- 0        (0.00%) (init= 100)
+    l3_center:       280.662808 +/- 0        (0.00%) (init= 276.51)
+    l3_fwhm:         20.7253528 +/- 0        (0.00%)  == '2.0000000*l3_sigma'
+    l3_height:       0.21003111 +/- 0        (0.00%)  == '0.3183099*l3_amplitude/max(1.e-15, l3_sigma)'

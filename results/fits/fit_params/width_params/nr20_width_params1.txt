@@ -1,0 +1,67 @@
+[[Model]]
+    (((Model(gaussian, prefix='g1_') + Model(gaussian, prefix='g2_')) + Model(gaussian, prefix='g3_')) + Model(constant))
+[[Fit Statistics]]
+    # function evals   = 270
+    # data points      = 332
+    # variables        = 10
+    chi-square         = 3.008
+    reduced chi-square = 0.009
+    Akaike info crit   = -1541.665
+    Bayesian info crit = -1503.614
+[[Variables]]
+    g1_amplitude:   236.230391 +/- 7.201062 (3.05%) (init= 100)
+    g1_sigma:       45.9327529 +/- 0.922737 (2.01%) (init= 80.5)
+    g1_center:      185.311892 +/- 1.314320 (0.71%) (init= 250)
+    g1_fwhm:        108.163365 +/- 2.172881 (2.01%)  == '2.3548200*g1_sigma'
+    g1_height:      2.05174498 +/- 0.028642 (1.40%)  == '0.3989423*g1_amplitude/max(1.e-15, g1_sigma)'
+    g2_amplitude:   112.360480 +/- 4.831460 (4.30%) (init= 100)
+    g2_sigma:       17.5013418 +/- 0.374394 (2.14%) (init= 80.5)
+    g2_center:      232.861225 +/- 0.201575 (0.09%) (init= 200)
+    g2_fwhm:        41.2125098 +/- 0.881632 (2.14%)  == '2.3548200*g2_sigma'
+    g2_height:      2.56125208 +/- 0.063306 (2.47%)  == '0.3989423*g2_amplitude/max(1.e-15, g2_sigma)'
+    g3_amplitude:   134.645118 +/- 4.867007 (3.61%) (init= 100)
+    g3_sigma:       16.1847168 +/- 0.472852 (2.92%) (init= 80.5)
+    g3_center:      328.802607 +/- 0.630122 (0.19%) (init= 350)
+    g3_fwhm:        38.1120948 +/- 1.113481 (2.92%)  == '2.3548200*g3_sigma'
+    g3_height:      3.31891090 +/- 0.039118 (1.18%)  == '0.3989423*g3_amplitude/max(1.e-15, g3_sigma)'
+    c:              0.27506730 +/- 0.012445 (4.52%) (init= 1.554126)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(g1_center, g2_amplitude)   = -0.964 
+    C(g3_amplitude, g3_sigma)    =  0.957 
+    C(g3_amplitude, g3_center)   =  0.942 
+    C(g1_amplitude, g1_sigma)    =  0.929 
+    C(g2_amplitude, g2_sigma)    =  0.922 
+    C(g3_sigma, g3_center)       =  0.900 
+    C(g1_amplitude, g2_amplitude)  = -0.894 
+    C(g1_center, g2_sigma)       = -0.866 
+    C(g1_amplitude, g1_center)   =  0.863 
+    C(g1_sigma, g2_amplitude)    = -0.806 
+    C(g1_amplitude, g2_sigma)    = -0.789 
+    C(g1_sigma, g1_center)       =  0.786 
+    C(g1_sigma, g2_sigma)        = -0.682 
+    C(g1_amplitude, c)           = -0.624 
+    C(g1_sigma, c)               = -0.598 
+    C(g1_center, g3_sigma)       = -0.459 
+    C(g2_amplitude, g3_sigma)    =  0.449 
+    C(g1_center, g3_amplitude)   = -0.404 
+    C(g2_amplitude, g3_amplitude)  =  0.393 
+    C(g1_sigma, g3_sigma)        = -0.389 
+    C(g2_sigma, g3_sigma)        =  0.388 
+    C(g1_amplitude, g3_sigma)    = -0.378 
+    C(g1_sigma, g2_center)       = -0.358 
+    C(g2_sigma, g3_amplitude)    =  0.344 
+    C(g1_sigma, g3_amplitude)    = -0.312 
+    C(g1_amplitude, g3_amplitude)  = -0.299 
+    C(g2_amplitude, c)           =  0.276 
+    C(g1_center, g3_center)      = -0.275 
+    C(g2_amplitude, g3_center)   =  0.268 
+    C(g1_center, c)              = -0.261 
+    C(g1_sigma, g3_center)       = -0.240 
+    C(g1_amplitude, g3_center)   = -0.233 
+    C(g2_sigma, g3_center)       =  0.227 
+    C(g2_sigma, c)               =  0.195 
+    C(g1_amplitude, g2_center)   = -0.176 
+    C(g1_center, g2_center)      = -0.143 
+    C(g2_amplitude, g2_center)   =  0.132 
+    C(g2_center, c)              =  0.124 
+    C(g2_center, g3_sigma)       =  0.111 
